@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/CLionProjects/McAfeeChallenge/candy.cpp
+candy.h
+C:/Users/user/CLionProjects/McAfeeChallenge/candy.h
+iostream
+-
+sstream
+-
+
+C:/Users/user/CLionProjects/McAfeeChallenge/candy.h
+vector
+-
+string
+-
+
