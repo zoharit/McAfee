@@ -4,6 +4,6 @@
 CMakeFiles\McAfeeChallenge.dir\candy.cpp.obj: ..\candy.cpp
 CMakeFiles\McAfeeChallenge.dir\candy.cpp.obj: ..\candy.h
 
-CMakeFiles\McAfeeChallenge.dir\main.cpp.obj: ..\candy.h
-CMakeFiles\McAfeeChallenge.dir\main.cpp.obj: ..\main.cpp
+CMakeFiles\McAfeeChallenge.dir\test.cpp.obj: ..\candy.h
+CMakeFiles\McAfeeChallenge.dir\test.cpp.obj: ..\test.cpp
 

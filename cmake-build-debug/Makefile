@@ -151,32 +151,32 @@ candy.cpp.s:
 	$(MAKE) -f CMakeFiles\McAfeeChallenge.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\McAfeeChallenge.dir\candy.cpp.s
 .PHONY : candy.cpp.s
 
-main.obj: main.cpp.obj
+test.obj: test.cpp.obj
 
-.PHONY : main.obj
+.PHONY : test.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\McAfeeChallenge.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\McAfeeChallenge.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+test.cpp.obj:
+	$(MAKE) -f CMakeFiles\McAfeeChallenge.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\McAfeeChallenge.dir\test.cpp.obj
+.PHONY : test.cpp.obj
 
-main.i: main.cpp.i
+test.i: test.cpp.i
 
-.PHONY : main.i
+.PHONY : test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\McAfeeChallenge.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\McAfeeChallenge.dir\main.cpp.i
-.PHONY : main.cpp.i
+test.cpp.i:
+	$(MAKE) -f CMakeFiles\McAfeeChallenge.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\McAfeeChallenge.dir\test.cpp.i
+.PHONY : test.cpp.i
 
-main.s: main.cpp.s
+test.s: test.cpp.s
 
-.PHONY : main.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\McAfeeChallenge.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\McAfeeChallenge.dir\main.cpp.s
-.PHONY : main.cpp.s
+test.cpp.s:
+	$(MAKE) -f CMakeFiles\McAfeeChallenge.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\McAfeeChallenge.dir\test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -190,9 +190,9 @@ help:
 	@echo ... candy.obj
 	@echo ... candy.i
 	@echo ... candy.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

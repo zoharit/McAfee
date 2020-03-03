@@ -6,17 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/user/CLionProjects/McAfeeChallenge/candy.cpp
-candy.h
-C:/Users/user/CLionProjects/McAfeeChallenge/candy.h
-iostream
--
-sstream
--
-
 C:/Users/user/CLionProjects/McAfeeChallenge/candy.h
 vector
 -
 string
+-
+
+C:/Users/user/CLionProjects/McAfeeChallenge/test.cpp
+iostream
+-
+string
+-
+fstream
+-
+vector
+-
+candy.h
+C:/Users/user/CLionProjects/McAfeeChallenge/candy.h
+algorithm
 -
 

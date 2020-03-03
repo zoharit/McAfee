@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/McAfeeChallenge.dir/candy.cpp.obj"
-  "CMakeFiles/McAfeeChallenge.dir/main.cpp.obj"
+  "CMakeFiles/McAfeeChallenge.dir/test.cpp.obj"
   "McAfeeChallenge.exe"
   "McAfeeChallenge.exe.manifest"
   "McAfeeChallenge.lib"

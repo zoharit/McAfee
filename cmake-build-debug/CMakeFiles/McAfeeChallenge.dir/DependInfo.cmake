@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/user/CLionProjects/McAfeeChallenge/candy.cpp" "C:/Users/user/CLionProjects/McAfeeChallenge/cmake-build-debug/CMakeFiles/McAfeeChallenge.dir/candy.cpp.obj"
-  "C:/Users/user/CLionProjects/McAfeeChallenge/main.cpp" "C:/Users/user/CLionProjects/McAfeeChallenge/cmake-build-debug/CMakeFiles/McAfeeChallenge.dir/main.cpp.obj"
+  "C:/Users/user/CLionProjects/McAfeeChallenge/test.cpp" "C:/Users/user/CLionProjects/McAfeeChallenge/cmake-build-debug/CMakeFiles/McAfeeChallenge.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

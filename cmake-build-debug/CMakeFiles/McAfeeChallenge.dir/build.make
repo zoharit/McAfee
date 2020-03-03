@@ -58,23 +58,23 @@ include CMakeFiles\McAfeeChallenge.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\McAfeeChallenge.dir\flags.make
 
-CMakeFiles\McAfeeChallenge.dir\main.cpp.obj: CMakeFiles\McAfeeChallenge.dir\flags.make
-CMakeFiles\McAfeeChallenge.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\McAfeeChallenge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/McAfeeChallenge.dir/main.cpp.obj"
+CMakeFiles\McAfeeChallenge.dir\test.cpp.obj: CMakeFiles\McAfeeChallenge.dir\flags.make
+CMakeFiles\McAfeeChallenge.dir\test.cpp.obj: ..\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\McAfeeChallenge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/McAfeeChallenge.dir/test.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\McAfeeChallenge.dir\main.cpp.obj /FdCMakeFiles\McAfeeChallenge.dir\ /FS -c C:\Users\user\CLionProjects\McAfeeChallenge\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\McAfeeChallenge.dir\test.cpp.obj /FdCMakeFiles\McAfeeChallenge.dir\ /FS -c C:\Users\user\CLionProjects\McAfeeChallenge\test.cpp
 <<
 
-CMakeFiles\McAfeeChallenge.dir\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/McAfeeChallenge.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\McAfeeChallenge.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\McAfeeChallenge\main.cpp
+CMakeFiles\McAfeeChallenge.dir\test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/McAfeeChallenge.dir/test.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\McAfeeChallenge.dir\test.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\McAfeeChallenge\test.cpp
 <<
 
-CMakeFiles\McAfeeChallenge.dir\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/McAfeeChallenge.dir/main.cpp.s"
+CMakeFiles\McAfeeChallenge.dir\test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/McAfeeChallenge.dir/test.cpp.s"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\McAfeeChallenge.dir\main.cpp.s /c C:\Users\user\CLionProjects\McAfeeChallenge\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\McAfeeChallenge.dir\test.cpp.s /c C:\Users\user\CLionProjects\McAfeeChallenge\test.cpp
 <<
 
 CMakeFiles\McAfeeChallenge.dir\candy.cpp.obj: CMakeFiles\McAfeeChallenge.dir\flags.make
@@ -98,13 +98,13 @@ CMakeFiles\McAfeeChallenge.dir\candy.cpp.s: cmake_force
 
 # Object files for target McAfeeChallenge
 McAfeeChallenge_OBJECTS = \
-"CMakeFiles\McAfeeChallenge.dir\main.cpp.obj" \
+"CMakeFiles\McAfeeChallenge.dir\test.cpp.obj" \
 "CMakeFiles\McAfeeChallenge.dir\candy.cpp.obj"
 
 # External object files for target McAfeeChallenge
 McAfeeChallenge_EXTERNAL_OBJECTS =
 
-McAfeeChallenge.exe: CMakeFiles\McAfeeChallenge.dir\main.cpp.obj
+McAfeeChallenge.exe: CMakeFiles\McAfeeChallenge.dir\test.cpp.obj
 McAfeeChallenge.exe: CMakeFiles\McAfeeChallenge.dir\candy.cpp.obj
 McAfeeChallenge.exe: CMakeFiles\McAfeeChallenge.dir\build.make
 McAfeeChallenge.exe: CMakeFiles\McAfeeChallenge.dir\objects1.rsp
