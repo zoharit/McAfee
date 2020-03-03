@@ -8,15 +8,17 @@ using namespace std;
 
 vector<candy*> myCandies;
 string T = "";
+
+//Read & parse & store the data
 void setData(){
     std::ifstream file("../small.in");
     if (file.is_open()) {
-        std::string line;
-        std::string line1;
-        getline(file,line);
-        T = line;
-        while (getline(file, line) && getline(file, line1)) {
-            myCandies.push_back(new candy(stoi(line) ,line1));
+        std::string count;
+        std::string candies;
+        getline(file,count);
+        T = count;
+        while (getline(file, count) && getline(file, candies)) {
+            myCandies.push_back(new candy(stoi(count) ,candies));
         }
         file.close();
     }
